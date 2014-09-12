@@ -1,0 +1,10 @@
+{
+    "name": "3a",
+    "version": "0.1.0b-1",
+    "dependencies": {
+        "socket.io-client": "~1.0.6",
+        "q": "~1.0.1",
+        "seedrandom": "~2.3.6",
+        "sniffweb-client": "martinvl/sniffweb-client"
+    }
+}

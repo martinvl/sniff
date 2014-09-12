@@ -1,0 +1,7 @@
+{
+    "name": "2c",
+    "version": "0.1.0b-1",
+    "dependencies": {
+        "express": "~4.8.5"
+    }
+}

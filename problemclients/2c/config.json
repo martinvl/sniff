@@ -1,0 +1,12 @@
+{
+    "port": 80,
+    "taskId": "2c",
+    "hosts": [
+        "vg.no",
+        "hw.no",
+        "moss-avis.no",
+        "uio.no",
+        "itavisen.no"
+    ],
+    "taskId": "2c"
+}

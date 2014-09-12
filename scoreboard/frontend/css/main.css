@@ -1,0 +1,135 @@
+html
+{
+    min-height: 100%;
+}
+
+body
+{
+    color: rgba(255, 255, 255, .9);
+    font-family: "HelveticaNeue";
+    font-weight: 300;
+
+    background-color: rgb(70, 70, 70);
+    min-height: 100%;
+
+    /* font antialiasing stuff */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+/* scoreboard */
+.task
+{
+    border-left: 1px solid #777777;
+    height: 100vh;
+}
+
+.task:first-child
+{
+    border-left: 0px;
+}
+
+.task-name
+{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #777777;
+    font-size: 32px;
+    font-family: "HelveticaNeue-Light";
+    font-weight: 500;
+    cursor: default;
+}
+
+.name
+{
+    font-size: 18px;
+    cursor: default;
+}
+
+.submit-button
+{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* submit */
+.outer
+{
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.center-box
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 320px;
+
+    background-color: rgba(255, 255, 255, .15);
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.center-box h1, .center-box h2
+{
+    margin-top: 0px;
+    font-family: "HelveticaNeue-UltraLight";
+    font-weight: 300;
+}
+
+.center-box h2
+{
+    margin-bottom: 15px;
+}
+
+.list-group
+{
+    margin-bottom: 0px;
+}
+
+.center-box .input-group
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.task-button
+{
+    color: #000000;
+}
+
+a
+{
+    cursor: pointer;
+}
+
+a.selected-task
+{
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: #fff;
+}
+
+a.selected-task:hover
+{
+    background-color: #449d44;
+    border-color: #398439;
+    color: #fff;
+}
+
+.list-group > a
+{
+    font-size: 16px;
+}

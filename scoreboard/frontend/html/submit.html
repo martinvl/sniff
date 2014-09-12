@@ -1,0 +1,27 @@
+<div class="outer">
+    <div class="middle">
+        <div class="center-box">
+            <h1>Besvar oppgave</h1>
+            <div class="list-group">
+                <a ng-click="selectTask(task)"
+                    class="list-group-item {{ task.selected ? 'selected-task' : '' }}"
+                    ng-repeat="task in tasks | keyTasks">Oppgave {{ task.id }}</a>
+            </div>
+            <form ng-submit="send()">
+                <div class="input-group">
+                    <span class="input-group-addon">Kode</span>
+                    <input type="text" class="form-control" ng-model="key" \>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">Navn</span>
+                    <input type="text" class="form-control" ng-model="name" \>
+                </div>
+                <div class="btn-group">
+                    <button id="send-button" type="submit"
+                        class="btn btn-success" ng-disabled="!name.length">Send</button>
+                    <a href="#/scoreboard" class="btn btn-default">Scoreboard</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,401 @@
+﻿
+
+
+<!DOCTYPE html>
+
+<html lang="no">
+	<head><title>
+	Skandiabanken - Enkel nettbank
+</title><meta http-equiv="cache-control" content="no cache" /><meta http-equiv="pragma" content="no cache" /><link rel="stylesheet" type="text/css" media="all" href="/Templates/Styles/Black/SkbWebTheme.css?1" />
+<link rel="stylesheet" type="text/css" media="all" href="/Templates/Styles/Publisher.css?1" />
+<link rel="stylesheet" type="text/css" media="print" href="/Templates/Styles/SkbWebPrint.css?1" />
+
+
+
+
+
+<meta name="description" content="Skandiabanken er en ren nettbank kjent for gebyrfrie tjenester og fornøyde kunder. Vi tilbyr boliglån, billån, kreditt, sparing i fond og aksjer, kredittkort og bankkort" /><meta name="keywords" content="Gebyrfri, bank, nettbank, lån, boliglån, billån, finansiering, kort, visa, kreditt, sparing, fond, aksjer" /><meta name="author" content="JarleN" />
+
+
+<script type="text/javascript" src='/Templates/Scripts/jquery-1.3.2.min.js'></script>
+<script type="text/javascript" src='/Templates/Scripts/jquery.blockUI.js'></script>
+<script type="text/javascript" src='/Templates/Scripts/preventsubmit.js'></script>
+<script type="text/javascript" src='/Templates/Scripts/skbweb.js'></script></head>
+	<body>
+		<form name="MasterTemplateForm" method="post" action="" id="MasterTemplateForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTAwMDY2ODY5MA9kFgJmD2QWBAIDD2QWCgIDD2QWBAIBDxYCHgRUZXh0Bc4EPHVsPjx1bD48bGk+PGxpPjxhIGhyZWY9Ii9UZW1wbGF0ZXMvUGFnZXMvVG9Lb2xvbm5lc2lkZS5hc3B4P2lkPTcxJmVwc2xhbmd1YWdlPW5vIj5QcmVzc2U8L2E+PC9saT48L2xpPjxsaT48bGk+PGEgaHJlZj0iL1RlbXBsYXRlcy9QYWdlcy9IamVscGVzaWRlLmFzcHg/aWQ9NjYmZXBzbGFuZ3VhZ2U9bm8iPkhqZWxwPC9hPjwvbGk+PC9saT48bGk+PGxpPjxhIGhyZWY9Ii9UZW1wbGF0ZXMvUGFnZXMvQmxhbmsuYXNweD9pZD00NTImZXBzbGFuZ3VhZ2U9bm8iPktvbnRha3Q8L2E+PC9saT48L2xpPjxsaT48bGk+PGEgaHJlZj0iL1RlbXBsYXRlcy9QYWdlcy9PbXNpZGUuYXNweD9pZD01NSZlcHNsYW5ndWFnZT1ubyI+T20gb3NzPC9hPjwvbGk+PC9saT48bGk+PGxpPjxhIGhyZWY9Ii9UZW1wbGF0ZXMvUGFnZXMvU2tqZW1hc2lkZS5hc3B4P2lkPTgyJmVwc2xhbmd1YWdlPW5vIj5LbGFnZTwvYT48L2xpPjwvbGk+PGxpPjxsaT48YSBocmVmPSJodHRwczovL3NlY3VyZS5za2FuZGlhYmFua2VuLm5vL1NrYlNlY3VyZS9Mb2dpbi9EZWZhdWx0LmFzaHgiPjxzdHJvbmc+TG9nZyBpbm48L3N0cm9uZz48L2E+PC9saT48L2xpPjwvdWw+PC91bD5kAgMPFgIeCV9QYWdlTGluaygpbUVQaVNlcnZlci5Db3JlLlBhZ2VSZWZlcmVuY2UsIEVQaVNlcnZlciwgVmVyc2lvbj03LjUuMTAwMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPThmZTgzZGVhNzM4YjQ1YjcBMxYSAgEPZBYCAgEPDxYEHgxfYm91bmRQYWdlSUQCKB4JX2xhc3RUeXBlCylqRVBpU2VydmVyLkNvcmUuUmVuZGVyVHlwZSwgRVBpU2VydmVyLCBWZXJzaW9uPTcuNS4xMDAwLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49OGZlODNkZWE3MzhiNDViNwFkFgJmDw8WBB4IQ3NzQ2xhc3NlHgRfIVNCAgJkZAICD2QWAgIBDw8WBB8CAvMIHwMLKwUBZBYCZg8PFgQfBGUfBQICZGQCAw9kFgICAQ8PFgQfAgIsHwMLKwUBZBYCZg8PFgQfBGUfBQICZGQCBA9kFgICAQ8PFgQfAgLnCB8DCysFAWQWAmYPDxYEHwRlHwUCAmRkAgUPZBYCAgEPDxYEHwICLR8DCysFAWQWAmYPDxYEHwRlHwUCAmRkAgYPZBYCAgEPDxYEHwIChAYfAwsrBQFkFgJmDw8WBB8EZR8FAgJkZAIHD2QWAgIBDw8WBB8CAi8fAwsrBQFkFgJmDw8WBB8EZR8FAgJkZAIID2QWAgIBDw8WBB8CAjAfAwsrBQFkFgJmDw8WBB8EZR8FAgJkZAIJD2QWAgIBDw8WBB8CAskHHwMLKwUBZBYCZg8PFgQfBGUfBQICZGQCBQ9kFgJmDxYCHwEoKwQCNDAWDmYPZBYCZg8VAQhGb3JzaWRlbmQCAw9kFgICAQ8PFgQfAgJuHwMLKwUBZBYCZg8PFgQfBGUfBQICZGQCBg9kFgICAQ8PFgQfAgLxAx8DCysFAWQWAmYPDxYEHwRlHwUCAmRkAgkPZBYCAgEPDxYEHwIC0kofAwsrBQFkFgJmDw8WBB8EZR8FAgJkZAIMD2QWAgIBDw8WBB8CAr8gHwMLKwUBZBYCZg8PFgQfBGUfBQICZGQCDw9kFgICAQ8PFgQfAgKwHh8DCysFAWQWAmYPDxYEHwRlHwUCAmRkAhIPZBYCAgEPDxYEHwICkx8fAwsrBQFkFgJmDw8WBB8EZR8FAgJkZAILD2QWCgIFDxYCHwAF8AE8cD48YSBocmVmPSIvVGVtcGxhdGVzL1BhZ2VzL1RvS29sb25uZXNpZGUuYXNweD9pZD01MDUmYW1wO2Vwc2xhbmd1YWdlPW5vIj48aW1nIHRpdGxlPSJWaSBrdXR0ZXIgcmVudGVuIiBzcmM9Ii9saW5rL2U1MzcyZDUyNDcwMzQ5NTNiOWVjYzUxNWExNGNjNzllLmFzcHg/aWQ9OTc1NCZhbXA7ZXBzbGFuZ3VhZ2U9bm8iIGFsdD0iVmkga3V0dGVyIHJlbnRlbiIgd2lkdGg9IjQ2NSIgaGVpZ2h0PSIxODQiIC8+PC9hPjwvcD5kAgkPZBYCAgMPFgIfAAXRDTxwPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEzcHg7IGZvbnQtd2VpZ2h0OiBib2xkOyI+TGlrZSZuYnNwO2dvZGUgcHJpc2VyIGZvciBhbGxlPC9zcGFuPjwvcD4KPHRhYmxlIGJvcmRlcj0iMCIgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRkaW5nPSIwIj4KPHRib2R5Pgo8dHI+Cjx0ZCBjbGFzcz0ibGVmdCI+QnJ1a3Nrb250bzwvdGQ+Cjx0ZCBhbGlnbj0icmlnaHQiPio8c3Bhbj4wLDUwPC9zcGFuPiZuYnNwOyU8L3RkPgo8L3RyPgo8dHI+Cjx0ZCBjbGFzcz0ibGVmdCI+SMO4eXJlbnRla29udG8gZnJhIDEwMCAwMDA8L3RkPgo8dGQgYWxpZ249InJpZ2h0Ij4qPHNwYW4+Miw3NTwvc3Bhbj4mbmJzcDslPC90ZD4KPC90cj4KPHRyPgo8dGQgY2xhc3M9ImxlZnQiPkJTVTwvdGQ+Cjx0ZCBhbGlnbj0icmlnaHQiPjxzcGFuPjQsMTU8L3NwYW4+Jm5ic3A7JTwvdGQ+CjwvdHI+Cjx0ciB2YWxpZ249InRvcCI+Cjx0ZD5Cb2xpZ2zDpW4gNzUgJSBvdmVyIDIgbWlsbC48L3RkPgo8dGQgYWxpZ249InJpZ2h0Ij48c3Bhbj4zLDQwPC9zcGFuPiZuYnNwOyU8L3RkPgo8L3RyPgo8dHI+Cjx0ZCBjbGFzcz0ibGVmdCI+Qm9saWdsw6VuIDg1ICUgb3ZlciAyIG1pbGwuPC90ZD4KPHRkIGFsaWduPSJyaWdodCI+PHNwYW4+Myw3MDwvc3Bhbj4mbmJzcDslPC90ZD4KPC90cj4KPHRyPgo8dGQgY2xhc3M9ImxlZnQiPkdyw7hudCBCaWxsw6VuIDc1ICU8L3RkPgo8dGQgYWxpZ249InJpZ2h0Ij48c3Bhbj41LDAwPC9zcGFuPiZuYnNwOyU8L3RkPgo8L3RyPgo8dHIgdmFsaWduPSJ0b3AiPgo8dGQ+R3LDuG50IEJpbGzDpW4gMTAwICU8L3RkPgo8dGQgYWxpZ249InJpZ2h0Ij48c3Bhbj42LDU1PC9zcGFuPiZuYnNwOyU8L3RkPgo8L3RyPgo8dHI+Cjx0ZCBjbGFzcz0ibGVmdCI+S29udG9rcmVkaXR0PC90ZD4KPHRkIGFsaWduPSJyaWdodCI+PHNwYW4+MTUsOTU8L3NwYW4+Jm5ic3A7JTwvdGQ+CjwvdHI+Cjx0cj4KPHRkIGNsYXNzPSJsZWZ0Ij5LcmVkaXR0a29ydDwvdGQ+Cjx0ZCBhbGlnbj0icmlnaHQiPjxzcGFuPjE0LDk2PC9zcGFuPiZuYnNwOyU8L3RkPgo8L3RyPgo8dHI+Cjx0ZCBjbGFzcz0ibGVmdCI+Rm9uZHNoYW5kZWwgKGF2Z2lmdCk8L3RkPgo8dGQgYWxpZ249InJpZ2h0Ij4KPHA+Jm5ic3A7MCwtPC9wPgo8L3RkPgo8L3RyPgo8dHIgdmFsaWduPSJ0b3AiPgo8dGQ+QWtzamVoYW5kZWwgKGt1cnRhc2plKTwvdGQ+Cjx0ZCBhbGlnbj0icmlnaHQiPjxzcGFuPmZyYSA0OTwvc3Bhbj4sLTwvdGQ+CjwvdHI+Cjx0ciB2YWxpZ249InRvcCI+Cjx0ZCBjb2xzcGFuPSIyIj4mbmJzcDsqIDxhIHRpdGxlPSJQcmlzZXIgZnJhIDIuIHNlcHRlbWJlciIgaHJlZj0iL1RlbXBsYXRlcy9QYWdlcy9CbGFuay5hc3B4P2lkPTEwNzEmYW1wO2Vwc2xhbmd1YWdlPW5vIj5OeWUgaW5uc2t1ZGRyZW50ZXIgZnJhIDIuIHNlcHRlbWJlcjwvYT48L3RkPgo8L3RyPgo8L3Rib2R5Pgo8L3RhYmxlPgo8cD48YnIgLz48YSBocmVmPSIvVGVtcGxhdGVzL1BhZ2VzL0JsYW5rLmFzcHg/aWQ9MTg3JmFtcDtlcHNsYW5ndWFnZT1ubyI+UHJpc2VyIGJhbms8L2E+ICZuYnNwO3wmbmJzcDs8YSBocmVmPSIvVGVtcGxhdGVzL1BhZ2VzL1RvS29sb25uZXNpZGUuYXNweD9pZD0zMjImYW1wO2Vwc2xhbmd1YWdlPW5vIj5QcmlzZXIgbMOlbjwvYT4mbmJzcDt8Jm5ic3A7PGEgaHJlZj0iL1RlbXBsYXRlcy9QYWdlcy9CbGFuay5hc3B4P2lkPTc4MiZhbXA7ZXBzbGFuZ3VhZ2U9bm8iPkVrc2VtcGxlcjwvYT4mbmJzcDs8L3A+ZAILD2QWBgIBDxYCHwAFEDxoMT5QZW5zam9uPC9oMT5kAgMPFgIfAAWIATxpbWcgc3JjPSIvbGluay8xNDE1MzZhODdlYmQ0N2NlYWVkODc5ZjI4NGVlNTE1NS5hc3B4P2lkPTU2MTEmYW1wO2Vwc2xhbmd1YWdlPW5vIiB0aXRsZT0iUGVuc2pvbiIgYWx0PSJQZW5zam9uIiBzdHlsZT0iZmxvYXQ6IHJpZ2h0OyIgLz5kAgUPFgIfAAWSCDx0YWJsZSBjZWxsU3BhY2luZz0iMCIgY2VsbFBhZGRpbmc9IjAiIGJvcmRlcj0iMCI+DQogIDx0Ym9keT4NCjx0cj4NCiAgPHRkPjxhIGhyZWY9Ii9UZW1wbGF0ZXMvUGFnZXMvVG9Lb2xvbm5lc2lkZS5hc3B4P2lkPTIzNSZhbXA7ZXBzbGFuZ3VhZ2U9bm8iPjxpbWcgc3JjPSIvbGluay9iYmJlNDEzYTYzNTc0MGVlOTE4ODBiODYwMGJlNDE3OC5hc3B4P2lkPTU2MzUmYW1wO2Vwc2xhbmd1YWdlPW5vIiB0aXRsZT0iU3BhcmVhdnRhbGUiIGFsdD0iU3BhcmVhdnRhbGUiIC8+PC9hPjwvdGQ+ICA8dGQ+PGEgaHJlZj0iL1RlbXBsYXRlcy9QYWdlcy9Ub0tvbG9ubmVzaWRlLmFzcHg/aWQ9MjM1JmFtcDtlcHNsYW5ndWFnZT1ubyI+U3BhcmVhdnRhbGU8L2E+PC90ZD48L3RyPg0KDQo8dHI+DQogIDx0ZD48YSBocmVmPSIvVGVtcGxhdGVzL1BhZ2VzL0JsYW5rLmFzcHg/aWQ9MzgxNyZhbXA7ZXBzbGFuZ3VhZ2U9bm8iPjxpbWcgc3JjPSIvbGluay9iYmJlNDEzYTYzNTc0MGVlOTE4ODBiODYwMGJlNDE3OC5hc3B4P2lkPTU2MzUmYW1wO2Vwc2xhbmd1YWdlPW5vIiB0aXRsZT0iS2Fsa3VsYXRvciIgYWx0PSJLYWxrdWxhdG9yIiAvPjwvYT48L3RkPiAgPHRkPjxhIGhyZWY9Ii9UZW1wbGF0ZXMvUGFnZXMvQmxhbmsuYXNweD9pZD0zODE3JmFtcDtlcHNsYW5ndWFnZT1ubyI+S2Fsa3VsYXRvcjwvYT48L3RkPjwvdHI+DQoNCjx0cj4NCiAgPHRkPjxhIGhyZWY9Ii9UZW1wbGF0ZXMvUGFnZXMvVG9Lb2xvbm5lc2lkZS5hc3B4P2lkPTM3NDAmYW1wO2Vwc2xhbmd1YWdlPW5vIj48aW1nIHNyYz0iL2xpbmsvYmJiZTQxM2E2MzU3NDBlZTkxODgwYjg2MDBiZTQxNzguYXNweD9pZD01NjM1JmFtcDtlcHNsYW5ndWFnZT1ubyIgdGl0bGU9Ik1pbiByw6VkZ2l2ZXIiIGFsdD0iTWluIHLDpWRnaXZlciIgLz48L2E+PC90ZD4gIDx0ZD48YSBocmVmPSIvVGVtcGxhdGVzL1BhZ2VzL1RvS29sb25uZXNpZGUuYXNweD9pZD0zNzQwJmFtcDtlcHNsYW5ndWFnZT1ubyI+TWluIHLDpWRnaXZlcjwvYT48L3RkPjwvdHI+DQoNCiAgPC90Ym9keT4NCjwvdGFibGU+DQpkAg0PZBYGAgEPFgIfAAUdPGgxPkdlYnlyZnJpdHQgYm9saWdsw6VuPC9oMT5kAgMPFgIfAAWMATxpbWcgc3JjPSIvbGluay9mY2ZhZGE0ZmQ1NzI0MDcyODI2N2UzNTIzNjBjNmE3NS5hc3B4P2lkPTU1OTkmYW1wO2Vwc2xhbmd1YWdlPW5vIiB0aXRsZT0iQm9saWdsw6VuIiBhbHQ9IkJvbGlnbMOlbiIgc3R5bGU9ImZsb2F0OiByaWdodDsiIC8+ZAIFDxYCHwAFmQg8dGFibGUgY2VsbFNwYWNpbmc9IjAiIGNlbGxQYWRkaW5nPSIwIiBib3JkZXI9IjAiPg0KICA8dGJvZHk+DQo8dHI+DQogIDx0ZD48YSBocmVmPSIvVGVtcGxhdGVzL1BhZ2VzL1RvS29sb25uZXNpZGUuYXNweD9pZD01MDUmYW1wO2Vwc2xhbmd1YWdlPW5vIj48aW1nIHNyYz0iL2xpbmsvYmJiZTQxM2E2MzU3NDBlZTkxODgwYjg2MDBiZTQxNzguYXNweD9pZD01NjM1JmFtcDtlcHNsYW5ndWFnZT1ubyIgdGl0bGU9IkZseXR0ZSBsw6VuIiBhbHQ9IkZseXR0ZSBsw6VuIiAvPjwvYT48L3RkPiAgPHRkPjxhIGhyZWY9Ii9UZW1wbGF0ZXMvUGFnZXMvVG9Lb2xvbm5lc2lkZS5hc3B4P2lkPTUwNSZhbXA7ZXBzbGFuZ3VhZ2U9bm8iPkZseXR0IGzDpW5ldCB0aWwgb3NzPC9hPjwvdGQ+PC90cj4NCg0KPHRyPg0KICA8dGQ+PGEgaHJlZj0iL1RlbXBsYXRlcy9QYWdlcy9TYWxnc3NpZGVfMS5hc3B4P2lkPTIwNiZhbXA7ZXBzbGFuZ3VhZ2U9bm8iPjxpbWcgc3JjPSIvbGluay9iYmJlNDEzYTYzNTc0MGVlOTE4ODBiODYwMGJlNDE3OC5hc3B4P2lkPTU2MzUmYW1wO2Vwc2xhbmd1YWdlPW5vIiB0aXRsZT0iQm9saWdsw6VuIiBhbHQ9IkJvbGlnbMOlbiIgLz48L2E+PC90ZD4gIDx0ZD48YSBocmVmPSIvVGVtcGxhdGVzL1BhZ2VzL1NhbGdzc2lkZV8xLmFzcHg/aWQ9MjA2JmFtcDtlcHNsYW5ndWFnZT1ubyI+Qm9saWdsw6VuPC9hPjwvdGQ+PC90cj4NCg0KPHRyPg0KICA8dGQ+PGEgaHJlZj0iL1RlbXBsYXRlcy9QYWdlcy9TYWxnc3NpZGVfMS5hc3B4P2lkPTIwNyZhbXA7ZXBzbGFuZ3VhZ2U9bm8iPjxpbWcgc3JjPSIvbGluay9iYmJlNDEzYTYzNTc0MGVlOTE4ODBiODYwMGJlNDE3OC5hc3B4P2lkPTU2MzUmYW1wO2Vwc2xhbmd1YWdlPW5vIiB0aXRsZT0iQm9saWdrcmVkaXR0IiBhbHQ9IkJvbGlna3JlZGl0dCIgLz48L2E+PC90ZD4gIDx0ZD48YSBocmVmPSIvVGVtcGxhdGVzL1BhZ2VzL1NhbGdzc2lkZV8xLmFzcHg/aWQ9MjA3JmFtcDtlcHNsYW5ndWFnZT1ubyI+Qm9saWdrcmVkaXR0PC9hPjwvdGQ+PC90cj4NCg0KICA8L3Rib2R5Pg0KPC90YWJsZT4NCmQCDw9kFgYCAQ8WAh8ABRw8aDE+R2VieXJmcml0dCBiaWxsw6VuIDwvaDE+ZAIDDxYCHwAFejxpbWcgc3JjPSIvbGluay9iMGMwYjc0OTRjMzc0ZTliOTExNTE5M2JlZDMxMDg4MC5hc3B4P2lkPTUzNjkmYW1wO2Vwc2xhbmd1YWdlPW5vIiB0aXRsZT0iIiBhbHQ9IiIgc3R5bGU9ImZsb2F0OiByaWdodDsiIC8+ZAIFDxYCHwAFywg8dGFibGUgY2VsbFNwYWNpbmc9IjAiIGNlbGxQYWRkaW5nPSIwIiBib3JkZXI9IjAiPg0KICA8dGJvZHk+DQo8dHI+DQogIDx0ZD48YSBocmVmPSIvVGVtcGxhdGVzL1BhZ2VzL0JsYW5rLmFzcHg/aWQ9MTA1MyZhbXA7ZXBzbGFuZ3VhZ2U9bm8iPjxpbWcgc3JjPSIvbGluay9iYmJlNDEzYTYzNTc0MGVlOTE4ODBiODYwMGJlNDE3OC5hc3B4P2lkPTU2MzUmYW1wO2Vwc2xhbmd1YWdlPW5vIiB0aXRsZT0iMCwtIGkgdGVybWluZ2VieXIiIGFsdD0iMCwtIGkgdGVybWluZ2VieXIiIC8+PC9hPjwvdGQ+ICA8dGQ+PGEgaHJlZj0iL1RlbXBsYXRlcy9QYWdlcy9CbGFuay5hc3B4P2lkPTEwNTMmYW1wO2Vwc2xhbmd1YWdlPW5vIj4wLC0gaSB0ZXJtaW5nZWJ5cjwvYT48L3RkPjwvdHI+DQoNCjx0cj4NCiAgPHRkPjxhIGhyZWY9Ii9UZW1wbGF0ZXMvUGFnZXMvQmxhbmsuYXNweD9pZD0xMDUzJmFtcDtlcHNsYW5ndWFnZT1ubyI+PGltZyBzcmM9Ii9saW5rL2JiYmU0MTNhNjM1NzQwZWU5MTg4MGI4NjAwYmU0MTc4LmFzcHg/aWQ9NTYzNSZhbXA7ZXBzbGFuZ3VhZ2U9bm8iIHRpdGxlPSJJbmdlbiBldGFibGVyaW5nc2dlYnlyIiBhbHQ9IkluZ2VuIGV0YWJsZXJpbmdzZ2VieXIiIC8+PC9hPjwvdGQ+ICA8dGQ+PGEgaHJlZj0iL1RlbXBsYXRlcy9QYWdlcy9CbGFuay5hc3B4P2lkPTEwNTMmYW1wO2Vwc2xhbmd1YWdlPW5vIj4wLC0gaSBldGFibC5nZWJ5cjwvYT48L3RkPjwvdHI+DQoNCjx0cj4NCiAgPHRkPjxhIGhyZWY9Ii9UZW1wbGF0ZXMvUGFnZXMvVG9Lb2xvbm5lc2lkZS5hc3B4P2lkPTkxNCZhbXA7ZXBzbGFuZ3VhZ2U9bm8iPjxpbWcgc3JjPSIvbGluay9iYmJlNDEzYTYzNTc0MGVlOTE4ODBiODYwMGJlNDE3OC5hc3B4P2lkPTU2MzUmYW1wO2Vwc2xhbmd1YWdlPW5vIiB0aXRsZT0iR3LDuG50IG1pbGrDuC1iaWxsw6VuIiBhbHQ9Ikdyw7hudCBtaWxqw7gtYmlsbMOlbiIgLz48L2E+PC90ZD4gIDx0ZD48YSBocmVmPSIvVGVtcGxhdGVzL1BhZ2VzL1RvS29sb25uZXNpZGUuYXNweD9pZD05MTQmYW1wO2Vwc2xhbmd1YWdlPW5vIj5HcsO4bnQgbWlsasO4LWJpbGzDpW48L2E+PC90ZD48L3RyPg0KDQogIDwvdGJvZHk+DQo8L3RhYmxlPg0KZAIND2QWAmYPDxYEHwMLKwUBHwICqB1kFgJmDw8WBB8EZR8FAgJkZAIPD2QWCAIBDw8WAh8ABR9UaXJzZGFnIDI2LjA4LjIwMTQga2wuIDEyOjIwOjIzZGQCAw8PFgIfAAUKU0VTVFdFQjI2MmRkAgUPDxYCHwAFGSZjb3B5OyBTa2FuZGlhYmFua2VuIDIwMTRkZAIHDw8WAh8DCysFAWQWAmYPDxYEHwQFC2JvdHRvbUxpbmtzHwUCAmQWAmYPFgIeCGRpc2FibGVkZBYGZg8WAh8GZGQCAQ8WAh8GZGQCAg8WAh8GZGQCBQ9kFgJmDxYCHwAFL3MucGFnZU5hbWU9IlU6Rm9yc2lkZW4iO3MuY2hhbm5lbD0iVTpGb3JzaWRlbiI7ZGTqmPT8p5bsVHpZypylZrvUFRmbmjVPfKJJwiP8lRrkCw==" />
+
+			<a id="topSection" class="skip"></a>
+			<a href="#" class="skip">Til toppmeny</a> 
+			<a href="#" class="skip">Til lokalmeny</a>
+			<a href="#pageContent" class="skip">Til sideinnhold</a>
+			<div id="mastHead">
+				<div id="topContent">
+				    <a id="ctl00_lnkTopLogo" title="Skandiabanken.no" class="topLogo" href="/"><img title="Skandiabanken.no" src="/Templates/Styles/Black/skb_toplogo.png" alt="" border="0" /></a>
+                <div id="topBanner">
+                </div>
+					
+
+<div style="clear: right;"></div>
+<div class="iefixTopRight"></div>
+<div id="tabTop">
+    <ul><ul><li></li><li><a href="/Oss/Presse/">Presse</a></li><li></li><li><a href="/Hjelp/">Hjelp</a></li><li></li><li><a href="/Kontakt/">Kontakt</a></li><li></li><li><a href="/Oss/">Om oss</a></li><li></li><li><a href="/Kontakt/Reklamasjon/">Klage</a></li><li></li><li><a href="https://secure.skandiabanken.no/SkbSecure/Login/Default.ashx"><strong>Logg inn</strong></a></li></ul></ul>
+</div>
+
+<div style="clear: right;"></div>
+<a name="topMenu" class="skip"></a>
+
+
+	    <div id="tabMenu">
+		    <ul>
+	
+			    <li class="curr"><a href="/Forsiden/">Forsiden</a></li>
+	
+			    <li><a href="/Min-okonomi/">Min økonomi</a></li>
+	
+			    <li><a href="/Betaling/">Betaling</a></li>
+	
+			    <li><a href="/Kort/">Kort</a></li>
+	
+			    <li><a href="/Lan/">Lån</a></li>
+	
+			    <li><a href="/Sparing/">Sparing</a></li>
+	
+			    <li><a href="/Fond/">Fond</a></li>
+	
+			    <li><a href="/Aksjer/">Aksjer</a></li>
+	
+			    <li><a href="/MobileTjenester/">Mobile tjenester</a></li>
+	
+		    </ul>
+		</div>
+	
+
+<div class="iefixTopMenuRight"></div>
+
+					<a href="#topSection" class="skip">Til Topp</a>
+				</div>
+			</div>
+			
+			<div id="content">
+				<div id="menuContent">
+					
+	    <div id="leftMenu">
+	        <a name="localMenu" class="skip"></a>
+		    <ul>
+		        <li id="leftMenuHeader"><span>Forsiden</span></li>
+		    </ul>
+	
+	    <ul>
+    
+        <li>
+    
+	  <a href="/Forsiden/Aktuelle-nyheter/">Aktuelt</a>
+	
+        </li>
+    
+        <li>
+    
+	  <a href="/Forsiden/Om-oss/">Om oss</a>
+	
+        </li>
+    
+        <li>
+    
+	  <a href="/Forsiden/hvorfor-bli-kunde/">Hvorfor bli kunde</a>
+	
+        </li>
+    
+        <li>
+    
+	  <a href="/Forsiden/Nyhetsbrev/">Nyhetsbrev</a>
+	
+        </li>
+    
+        <li>
+    
+	  <a href="/Forsiden/Samfunnsansvar/">Samfunnsansvar</a>
+	
+        </li>
+    
+        <li>
+    
+	  <a href="/Forsiden/Coockies/">Bruk av cookies</a>
+	
+        </li>
+    
+	    </ul>
+	
+		</div>
+	
+
+					
+
+    <div id="loginContainer">      
+        <div id="loginBox">
+            <a title="Logg inn" class="loginBtn" href="https://secure.skandiabanken.no/SkbSecure/Login/Default.ashx"><span>Logg inn</span></a>
+        </div>
+
+        <a title="Hjelp" href="/Hjelp/">Hjelp til innlogging</a>
+        <a title="Aksjetrader" href="https://trader.skandiabanken.no/">Logg inn aksjetrader</a>
+        <div id="signupBox">
+            <a title="Bli kunde" class="signupBtn" href="https://secure.skandiabanken.no/SKCert/NewCustomer/NewCustomerInformation.aspx"><span>Bli kunde</span></a>        
+        </div>
+    </div>
+
+					
+
+    <div id="supportSkbWeb">
+        <div id="phoneSkbWeb">
+            <img src="/Templates/Styles/Images/phone.gif" alt="Tlf 800 01 001" />
+            <h2>810 01 001</h2>
+            <p>Kl. 06-24 alle dager</p>
+            <div class="clear">&nbsp;</div>
+        </div>
+         <div id="chatSkbWeb">
+            <h2>Logg inn og<br />chat med<br />oss</h2>
+            <div class="clear">&nbsp;</div>
+         </div>
+    </div>
+
+					<a href="#topSection" class="skip">Til Topp</a>
+					<div id="menuContentWidthHolder">&nbsp;</div>
+				</div>
+				<div id="pageContent">
+					<a name="pageContent" class="skip"></a>
+					
+	<div id="mainContent">
+        <div class="twoThirds">
+            <div id="skbMainPromo">
+                <div>
+                    
+                    <div>
+                        
+                        <p><a href="/Lan/Kampanje/Flytt-boliglanet/"><img title="Vi kutter renten" src="/globalassets/rentekutt_forside2.png" alt="Vi kutter renten" width="465" height="184" /></a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="separator"></div>
+                <div id="ctl00_MainContentPlaceHolder_pnlMainContentLinkBoxes">
+	
+                <div class="linkBox marginRight">
+                    <p><a href="/Lan/Kalkulatorer/Preload/"><img src="/contentassets/bc1c14f1c721462a8321acd4fec81a34/3-kvadratiske-bilder---bokser/boligkalkulator2.png" alt="" width="214" height="44" /></a></p>
+                </div>
+                <div class="linkBox">
+                    <p><a href="/MobileTjenester/Mobilbanken/"><img title="App for Android" src="/globalassets/nyapp_android.gif" alt="App for Android" width="215" height="45" /></a></p>
+                </div>
+                
+</div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="oneThird">
+            
+    <div id="priceSummary">
+        
+        <p><span style="font-size: 13px; font-weight: bold;">Like&nbsp;gode priser for alle</span></p>
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td class="left">Brukskonto</td>
+<td align="right">*<span>0,50</span>&nbsp;%</td>
+</tr>
+<tr>
+<td class="left">Høyrentekonto fra 100 000</td>
+<td align="right">*<span>2,75</span>&nbsp;%</td>
+</tr>
+<tr>
+<td class="left">BSU</td>
+<td align="right"><span>4,15</span>&nbsp;%</td>
+</tr>
+<tr valign="top">
+<td>Boliglån 75 % over 2 mill.</td>
+<td align="right"><span>3,40</span>&nbsp;%</td>
+</tr>
+<tr>
+<td class="left">Boliglån 85 % over 2 mill.</td>
+<td align="right"><span>3,70</span>&nbsp;%</td>
+</tr>
+<tr>
+<td class="left">Grønt Billån 75 %</td>
+<td align="right"><span>5,00</span>&nbsp;%</td>
+</tr>
+<tr valign="top">
+<td>Grønt Billån 100 %</td>
+<td align="right"><span>6,55</span>&nbsp;%</td>
+</tr>
+<tr>
+<td class="left">Kontokreditt</td>
+<td align="right"><span>15,95</span>&nbsp;%</td>
+</tr>
+<tr>
+<td class="left">Kredittkort</td>
+<td align="right"><span>14,96</span>&nbsp;%</td>
+</tr>
+<tr>
+<td class="left">Fondshandel (avgift)</td>
+<td align="right">
+<p>&nbsp;0,-</p>
+</td>
+</tr>
+<tr valign="top">
+<td>Aksjehandel (kurtasje)</td>
+<td align="right"><span>fra 49</span>,-</td>
+</tr>
+<tr valign="top">
+<td colspan="2">&nbsp;* <a title="Priser fra 2. september" href="/Betaling/Priser/Priser-gjelder-fra-3004/">Nye innskuddrenter fra 2. september</a></td>
+</tr>
+</tbody>
+</table>
+<p><br /><a href="/Betaling/Priser/">Priser bank</a> &nbsp;|&nbsp;<a href="/Lan/Priser/">Priser lån</a>&nbsp;|&nbsp;<a href="/Lan/Priser/Priseksempler/">Eksempler</a>&nbsp;</p>        
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="oneThird">
+            
+
+    <div class="productBox">
+        <h1>Pensjon</h1>
+        <div>
+            <img src="/contentassets/bc1c14f1c721462a8321acd4fec81a34/3-kvadratiske-bilder---bokser/pensjon_forside.png" title="Pensjon" alt="Pensjon" style="float: right;" />
+            <table cellSpacing="0" cellPadding="0" border="0">
+  <tbody>
+<tr>
+  <td><a href="/Fond/Opprett-spareavtale/"><img src="/contentassets/bc1c14f1c721462a8321acd4fec81a34/4-ikoner/punkt1.png" title="Spareavtale" alt="Spareavtale" /></a></td>  <td><a href="/Fond/Opprett-spareavtale/">Spareavtale</a></td></tr>
+
+<tr>
+  <td><a href="/Fond/pensjonskalkulator/"><img src="/contentassets/bc1c14f1c721462a8321acd4fec81a34/4-ikoner/punkt1.png" title="Kalkulator" alt="Kalkulator" /></a></td>  <td><a href="/Fond/pensjonskalkulator/">Kalkulator</a></td></tr>
+
+<tr>
+  <td><a href="/Fond/Radgivning/"><img src="/contentassets/bc1c14f1c721462a8321acd4fec81a34/4-ikoner/punkt1.png" title="Min rådgiver" alt="Min rådgiver" /></a></td>  <td><a href="/Fond/Radgivning/">Min rådgiver</a></td></tr>
+
+  </tbody>
+</table>
+                        
+        </div>
+    </div>
+
+        </div>
+        <div class="oneThird">
+            
+
+    <div class="productBox">
+        <h1>Gebyrfritt boliglån</h1>
+        <div>
+            <img src="/contentassets/bc1c14f1c721462a8321acd4fec81a34/3-kvadratiske-bilder---bokser/forside_lite_hus_2013.png" title="Boliglån" alt="Boliglån" style="float: right;" />
+            <table cellSpacing="0" cellPadding="0" border="0">
+  <tbody>
+<tr>
+  <td><a href="/Lan/Kampanje/Flytt-boliglanet/"><img src="/contentassets/bc1c14f1c721462a8321acd4fec81a34/4-ikoner/punkt1.png" title="Flytte lån" alt="Flytte lån" /></a></td>  <td><a href="/Lan/Kampanje/Flytt-boliglanet/">Flytt lånet til oss</a></td></tr>
+
+<tr>
+  <td><a href="/Lan/Boliglan/"><img src="/contentassets/bc1c14f1c721462a8321acd4fec81a34/4-ikoner/punkt1.png" title="Boliglån" alt="Boliglån" /></a></td>  <td><a href="/Lan/Boliglan/">Boliglån</a></td></tr>
+
+<tr>
+  <td><a href="/Lan/Boligkreditt/"><img src="/contentassets/bc1c14f1c721462a8321acd4fec81a34/4-ikoner/punkt1.png" title="Boligkreditt" alt="Boligkreditt" /></a></td>  <td><a href="/Lan/Boligkreditt/">Boligkreditt</a></td></tr>
+
+  </tbody>
+</table>
+                        
+        </div>
+    </div>
+
+        </div>
+        <div class="oneThird">
+            
+
+    <div class="productBox">
+        <h1>Gebyrfritt billån </h1>
+        <div>
+            <img src="/contentassets/bc1c14f1c721462a8321acd4fec81a34/bil_forside.png" title="" alt="" style="float: right;" />
+            <table cellSpacing="0" cellPadding="0" border="0">
+  <tbody>
+<tr>
+  <td><a href="/Lan/Billan/"><img src="/contentassets/bc1c14f1c721462a8321acd4fec81a34/4-ikoner/punkt1.png" title="0,- i termingebyr" alt="0,- i termingebyr" /></a></td>  <td><a href="/Lan/Billan/">0,- i termingebyr</a></td></tr>
+
+<tr>
+  <td><a href="/Lan/Billan/"><img src="/contentassets/bc1c14f1c721462a8321acd4fec81a34/4-ikoner/punkt1.png" title="Ingen etableringsgebyr" alt="Ingen etableringsgebyr" /></a></td>  <td><a href="/Lan/Billan/">0,- i etabl.gebyr</a></td></tr>
+
+<tr>
+  <td><a href="/Lan/Billan/Gront-billan/"><img src="/contentassets/bc1c14f1c721462a8321acd4fec81a34/4-ikoner/punkt1.png" title="Grønt miljø-billån" alt="Grønt miljø-billån" /></a></td>  <td><a href="/Lan/Billan/Gront-billan/">Grønt miljø-billån</a></td></tr>
+
+  </tbody>
+</table>
+                        
+        </div>
+    </div>
+
+        </div>
+        <div class="clear"></div>             
+    </div>
+
+                    
+				    <div>
+	<p><a href="/Lan/Billan/"><img title="Billigst billån" src="/globalassets/bilbanner_08_2014.png" alt="Billigst billån" width="737" height="140" /></a></p>
+</div>
+					                   
+                    <div class="clear"></div>
+				    <div id="footerContent"></div>
+				    <a href="#topSection" class="skip">Til Topp</a>
+				</div>
+				<div id="bottomContent">
+					
+
+<div style="float:left">
+ 	<span id="ctl00_Footer_lblDateTime">Tirsdag 26.08.2014 kl. 12:20:23</span>
+ 	<span id="ctl00_Footer_lblServerName" style="color: white">SESTWEB262</span> 
+</div>
+<div style="float:right">
+    <span id="ctl00_Footer_lblCopyRight">&copy; Skandiabanken 2014</span>
+</div>
+<div class="separator"></div>
+
+
+<ul class="bottomLinks"><li><a href="/Oss/Personvern1/">Personvern og samtykke</a></li><li><a href="/Oss/offisielle-kanaler/">Offisielle kanaler</a></li><li><a href="/Oss/brukervilkar/">Generelle vilk&#229;r</a></li></ul>
+				</div>
+				<a href="#topSection" class="skip">Til Topp</a>
+				<br />
+			</div>
+			
+		</form>
+        
+
+<!-- SiteCatalyst code version: H.20.2.
+Copyright 1997-2009 Omniture, Inc. More info available at
+http://www.omniture.com -->
+<script language="JavaScript" type="text/javascript">
+function getEnvironment(){
+    return 'skandiaskandiabankennoprod';
+}
+</script>
+<script language="JavaScript" type="text/javascript" src="/Templates/Scripts/s_code.js"></script>
+<script language="JavaScript" type="text/javascript"><!--
+
+/* You may give each page an identifying name, server, and channel on
+the next lines. */
+
+
+s.pageName="U:Forsiden";s.channel="U:Forsiden";
+
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script language="JavaScript" type="text/javascript"><!--
+    if (navigator.appVersion.indexOf('MSIE') >= 0) document.write(unescape('%3C') + '\!-' + '-')
+//--></script><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.20.2. -->
+
+<!-- http://groups.google.com/group/raphaeljs/browse_thread/thread/f41f4db37846e468: -->
+<script type="text/javascript">
+    (function () {
+        var old = s.ot;
+        s.ot = function (el) {
+            return el.tagUrn ? '' : old(el);
+        };
+    })(); 
+</script> 
+
+
+	</body>
+</html>

@@ -1,0 +1,9 @@
+<div class="col-sm-2 task" ng-repeat="task in tasks">
+    <div class="row">
+        <div class="col-sm-12 task-name">Oppgave {{ task.id }}</div>
+    </div>
+    <div class="row" ng-repeat="claim in task.claims">
+        <div class="col-sm-12 name" ng-bind="claim.name"></div>
+    </div>
+</div>
+<a href="#/submit" class="btn btn-success submit-button">Besvar oppgaver</a>
